@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import SubCont from './components/AuthSubContent';
+import FormSingUP from './components/AuthFormSignUp';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='page-wrap'>
+      <div className='mobileImage'>
+        <img src="/images/mbile-subcontent.png" alt="img"/>
+      </div>
+      <div className='main-content d-flex'>
+        <SubCont />
+        <FormSingUP />
+      </div>
     </div>
   );
 }
