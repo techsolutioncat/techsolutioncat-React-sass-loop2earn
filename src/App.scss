@@ -259,7 +259,9 @@ a.btn-link {
             color: #24262D;
           }
 
-          a.form-submit {
+          a.formSubmit {
+            border-radius: 10px;
+            font-weight: 700;
             width: 100%;
             background: $button-bg;
             box-shadow: $button-boxshadow;
@@ -270,10 +272,10 @@ a.btn-link {
           }
         }
 
-        .formHaveAccount {
+        .formRenderButton {
           border: none;
 
-          a.goto-login {
+          a.renderButton {
             font-family: "Syne", sans-serif;
             font-weight: 500;
             font-size: 16px;
