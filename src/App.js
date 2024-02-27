@@ -1,12 +1,13 @@
-import './App.scss';
+import './assets/scss/Auth.scss';
 import SubCont from './components/Auth/AuthSubContent';
 import AuthForm from './components/Auth/AuthForm';
+import MobileImage from './assets/images/mobile-subcontent.png';
 
 function App() {
   return (
     <div className='page-wrap'>
       <div className='mobileImage'>
-        <img src="/images/mbile-subcontent.png" alt="img" />
+        <img src={MobileImage} alt="img" />
       </div>
       <div className='main-content d-flex'>
         <SubCont />

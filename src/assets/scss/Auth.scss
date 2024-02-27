@@ -298,12 +298,26 @@ a.btn-link {
       justify-content: center;
       gap: 20px;
 
+      .icon-metamask {
+        @media (max-width: 425px) {
+          display: none;
+        }
+      }
+
+      .icon-instagram {
+        display: none;
+
+        @media (max-width: 425px) {
+          display: block;
+        }
+      }
+
       @media (max-width: 425px) {
         background: linear-gradient(181.71deg, #F6E8EA -5%, #F9F0E6 37.12%, #F49E6D 143.7%);
         border-top-left-radius: 30px;
         border-top-right-radius: 30px;
         padding: 28px 0px 31px 0px;
-        
+
         bottom: 0px;
         position: fixed;
         width: 100%;
