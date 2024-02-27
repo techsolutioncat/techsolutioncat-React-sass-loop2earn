@@ -43,7 +43,6 @@ function SubContent() {
                                 </svg>
                             </div>
                             <input type='text' className='phonenumber' placeholder='Phone Number'/>
-                            {/* <div className='optional-label'>(Optional)</div> */}
                         </div>
                         <div className='inputWithIcon formSubmitButton'>
                             <a href="/#" className="form-submit btn-link">Proceed</a>
