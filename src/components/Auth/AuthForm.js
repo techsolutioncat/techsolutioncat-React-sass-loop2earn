@@ -10,7 +10,7 @@ function AuthForm(props) {
     const { title, subtitle } = props; // or const appResults = props.appResults;
 
     return (
-        <div className="form-signup">
+        <div className="auth-form">
             <Header />
             <div className='form-body'>
                 <div className='main-form-body'>
