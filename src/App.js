@@ -1,4 +1,4 @@
-import SignUp from './assets/pages/auth/SignUP';
+import SignUp from './pages/auth/SignUP';
 
 function App() {
   return (

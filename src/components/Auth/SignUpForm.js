@@ -11,7 +11,7 @@ import userIcon from '../../assets/images/user.svg';
 import emailIcon from '../../assets/images/email.svg';
 import phoneIcon from '../../assets/images/phone.svg';
 
-function AuthForm(props) {
+function SignUpForm(props) {
     const { title, subtitle } = props; // or const appResults = props.appResults;
 
     return (
@@ -78,4 +78,4 @@ function AuthForm(props) {
     );
 };
 
-export default AuthForm;
+export default SignUpForm;
