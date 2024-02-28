@@ -1,7 +1,6 @@
-// Align style css
-.d-flex {
-    display: flex;
-}
+$mobile: 480px;
+$tablet: 768px;
+$desktop: 1024px;
 
 // Font style css
 .font-Syne {
@@ -17,6 +16,10 @@
 .font-Cairo {
     font-family: 'Cairo', sans-serif;
     /* Use the Google Font 'Cairo' */
+}
+
+.ls-none {
+    list-style: none;
 }
 
 .fw-100 {
@@ -54,4 +57,26 @@
 // Elements style css
 .br-10 {
     border-radius: 10px;
+}
+
+// display style css
+.d-hide {
+    display: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-block {
+    display: block;
+}
+
+// Position style css
+.p-0 {
+    padding: 0px;
+}
+
+.m-0 {
+    margin: 0px;
 }

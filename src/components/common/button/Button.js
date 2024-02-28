@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import './style.scss'
 
 function Button(props) {
     const { link, label, LinkClass } = props.data;
