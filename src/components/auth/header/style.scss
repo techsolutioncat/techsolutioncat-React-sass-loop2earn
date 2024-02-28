@@ -1,0 +1,36 @@
+/* Define standard variables and values for website */
+$headerH: 140px;
+$headerW: 1175px; //width <= 1440(px) and width >= 1200(px);
+
+.header-main__wrapper {
+    position: fixed;
+    width: 100%;
+    height: $headerH;
+    background: transparent;
+
+    .header-main__container {
+        width: 82%;
+        height: 100%;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-between;
+
+        @media(max-width: 1440px) {
+            width: $headerW;
+        }
+
+        .site-navigation {
+            a.link-login {
+                padding: 19px 30px;
+            }
+
+            a.link-signup {
+                padding: 19px 50px;
+            }
+        }
+    }
+
+    .mobile-logo {
+        display: none;
+    }
+}

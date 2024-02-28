@@ -1,12 +1,10 @@
-import React from 'react';
+// import Header from '../../components/auth/header/Header'
+// import SubCont from '../../components/auth/subcont/Subcont'
 
 function Login() {
-    return (
-        <div>
-            <h1>Next Page</h1>
-            <p>This is the Next Page</p>
-        </div>
-    );
-};
+  return (
+    <h1>This is my login page</h1>
+  );
+}
 
 export default Login;
