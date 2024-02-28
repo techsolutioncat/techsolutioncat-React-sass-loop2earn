@@ -7,7 +7,7 @@ $bgimage: url('../../../assets/images/subcont-bg-image.png');
 // Custom style css
 .sub-cont {
     width: $width;
-    height: 100vh;
+    height: 100%;
     background-image: $bgimage, $bgcolor;
     background-size: cover;
 
