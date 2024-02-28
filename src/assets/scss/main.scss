@@ -1,0 +1,25 @@
+/* Define standard variables and values for website */
+$gradientButtonColor: #fff;
+$transparentButtonColor: #24262D;
+
+// Define custom style css
+body {
+    margin: 0;
+}
+
+// Define custom style css
+a.btn-gradient {
+    font-family: "Syne", sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: $gradientButtonColor;
+    background: linear-gradient(113.87deg, #DD5690 14.81%, #FDB95F 88.76%);
+}
+
+a.btn-transparent {
+    font-family: "Syne", sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: $transparentButtonColor;
+    background: #fff;
+}
