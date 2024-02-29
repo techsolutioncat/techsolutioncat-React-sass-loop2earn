@@ -21,6 +21,7 @@ $subtitlecolor: #654657;
             width: calc(100% - 60px);
             padding-left: 30px;
             padding-right: 30px;
+            margin: 90px auto 0px auto;
         }
 
         .form-header {
@@ -50,6 +51,42 @@ $subtitlecolor: #654657;
 
             .form-group {
                 margin-top: 20px;
+
+                a.btn-submit {
+                    display: block;
+                    width: 100%;
+                    text-align: center;
+                    padding: 19px 0px;
+                }
+            }
+        }
+    }
+
+    .form-icons {
+        margin-top: 55px;
+        justify-content: center;
+        gap: 20px;
+
+        @media (max-width: 500px) {
+            position: fixed;
+            bottom: 0;
+            background: linear-gradient(181.71deg, #F6E8EA -5%, #F9F0E6 37.12%, #F49E6D 143.7%);
+            padding-top: 28px;
+            padding-bottom: 31px;
+            width: 100%;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+
+        .icon-instagram {
+            @media (max-width: 500px) {
+                display: block;
+            }
+        }
+
+        .icon-metamask {
+            @media (max-width: 500px) {
+                display: none;
             }
         }
     }
