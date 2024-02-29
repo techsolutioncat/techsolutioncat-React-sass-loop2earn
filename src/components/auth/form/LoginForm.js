@@ -14,7 +14,7 @@ import './style.scss'
 
 function Form(props) {
     const {title, subtitle} = props.data;
-
+    
     return (
         <div className='auth-form'>
             <form className='submit-form'>
