@@ -1,11 +1,15 @@
 import Header from '../../components/auth/header/Header'
 import SubCont from '../../components/auth/subcont/Subcont'
+import Form from '../../components/auth/form/Form'
 
 function Register() {
   return (
     <>
       <Header />
-      <SubCont />
+      <div className='main-content d-flex'>
+        <SubCont />
+        <Form data={{ title: 'Create Account', subtitle: 'Provide necessary information to proceed with registration or sign up with social media' }} />
+      </div>
     </>
   );
 }

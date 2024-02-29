@@ -6,8 +6,8 @@ import { faNavicon, faXmark } from '@fortawesome/free-solid-svg-icons';
 
 import Button from '../../common/button/Button'
 import './style.scss'
-import logo from '../../../assets/images/logo.svg'
-import MobileLogo from '../../../assets/images/mobile-logo.svg'
+import logo from '../../../assets/images/svg/logo.svg'
+import MobileLogo from '../../../assets/images/svg/mobile-logo.svg'
 
 function Header() {
     const [showMobileMenu, setShowMobileMenu] = useState(false);
