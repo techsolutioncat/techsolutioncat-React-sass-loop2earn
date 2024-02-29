@@ -1,8 +1,16 @@
 import Input from '../../common/input/Input'
 import Button from '../../common/button/Button'
+
+//Import Social icons
+import google from '../../../assets/images/google.png';
+import metamask from '../../../assets/images/metamask.png';
+import twitter from '../../../assets/images/twitter.png';
+import instagram from '../../../assets/images/instagram.png';
+//Import svg
 import user from '../../../assets/images/svg/user.svg'
 import mail from '../../../assets/images/svg/mail.svg'
 import phone from '../../../assets/images/svg/phone.svg'
+
 import './style.scss'
 
 function Form(props) {
@@ -33,8 +41,19 @@ function Form(props) {
                     </div>
                 </div>
             </form>
-            <div className='form-icons'>
-                
+            <div className='form-icons d-flex'>
+                <a href="/#" className="link-icon icon-google">
+                    <img src={google} alt="link-icon" />
+                </a>
+                <a href="/#" className="link-icon icon-metamask">
+                    <img src={metamask} alt="link-icon" />
+                </a>
+                <a href="/#" className="link-icon icon-instagram d-hide">
+                    <img src={instagram} alt="link-icon" />
+                </a>
+                <a href="/#" className="link-icon icon-twitter">
+                    <img src={twitter} alt="link-icon" />
+                </a>
             </div>
         </div>
     );
