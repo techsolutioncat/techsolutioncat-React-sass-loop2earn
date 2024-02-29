@@ -1,9 +1,16 @@
-// import Header from '../../components/auth/header/Header'
-// import SubCont from '../../components/auth/subcont/Subcont'
+import Header from '../../components/auth/header/Header'
+import SubCont from '../../components/auth/subcont/Subcont'
+import Form from '../../components/auth/form/LoginForm'
 
 function Login() {
   return (
-    <h1>This is my login page</h1>
+    <>
+      <Header />
+      <div className='main-content d-flex'>
+        <SubCont />
+        <Form data={{ title: 'Welcome Back', subtitle: 'Go ahead and log in. Get acces to your incredible account!' }} />
+      </div>
+    </>
   );
 }
 
