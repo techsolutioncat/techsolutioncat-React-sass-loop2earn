@@ -1,4 +1,5 @@
 import Input from '../../common/input/Input'
+import Button from '../../common/button/Button'
 import user from '../../../assets/images/svg/user.svg'
 import mail from '../../../assets/images/svg/mail.svg'
 import phone from '../../../assets/images/svg/phone.svg'
@@ -24,8 +25,17 @@ function Form(props) {
                     <div className='form-group'>
                         <Input data={{ icon: <img src={phone} alt='emailicon'></img>, type: 'tel', placeholder: 'Phone Number' }}></Input>
                     </div>
+                    <div className='form-group'>
+                        <Button data={{ link: '/', label: 'Proceed', LinkClass: 'site-button btn-submit btn-gradient font-Syne fw-700 br-10 br-10 td-none' }}></Button>
+                    </div>
+                    <div className='form-group'>
+                        <Button data={{ link: '/', label: 'I already have an account', LinkClass: 'site-button btn-submit btn-greygradient font-Syne fw-700 br-10 br-10 td-none' }}></Button>
+                    </div>
                 </div>
             </form>
+            <div className='form-icons'>
+                
+            </div>
         </div>
     );
 }

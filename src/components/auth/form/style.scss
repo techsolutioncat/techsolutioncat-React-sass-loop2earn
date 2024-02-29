@@ -50,6 +50,13 @@ $subtitlecolor: #654657;
 
             .form-group {
                 margin-top: 20px;
+
+                a.btn-submit {
+                    display: block;
+                    width: 100%;
+                    text-align: center;
+                    padding: 19px 0px;
+                }
             }
         }
     }
